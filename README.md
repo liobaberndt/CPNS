@@ -14,7 +14,7 @@ We study **predictive coding**, **neural dynamics**, and **active inference** in
 
 This GitHub hosts two kinds of things:
 
-### 1) Tools / libraries (actively developed) - branch: tools
+### 1) Tools/libraries (actively developed) - branch: tools
 Core modelling and inference toolkits used across projects.
 
 - atcm: thalamo-cortical neural mass modelling tools for M/EEG (ATCM; MATLAB).
