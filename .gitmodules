@@ -2,3 +2,11 @@
 	path = atcm
 	url = https://github.com/alexandershaw4/atcm.git
 	branch = master
+[submodule "aLogLikeFit"]
+	path = aLogLikeFit
+	url = https://github.com/alexandershaw4/aLogLikeFit.git
+	branch = main
+[submodule "VariationalLaplace"]
+	path = VariationalLaplace
+	url = https://github.com/alexandershaw4/VariationalLaplace.git
+	branch = main
