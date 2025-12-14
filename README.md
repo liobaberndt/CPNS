@@ -1,23 +1,34 @@
-# CPNS Lab (Computational Psychiatry & Neuropharmacological Systems) · University of Exeter
+# CPNS · Tools branch
 
-Mechanistic modelling for mind, brain, and intelligent systems.
+This branch collects CPNS lab tool repositories as git submodules (linked external repos). Submodules are pinned to specific commits for reproducibility, and can be updated to newer upstream commits when you choose.
 
-We study **predictive coding**, **neural dynamics**, and **active inference** in computational psychiatry and neuroscience combining experimental/clinical studies with computational modelling to understand psychiatric disorders and build intelligent agents.
+Included tools (submodules):
+- atcm — https://github.com/alexandershaw4/atcm
+- aLogLikeFit — https://github.com/alexandershaw4/aLogLikeFit
+- VariationalLaplace — https://github.com/alexandershaw4/VariationalLaplace
 
-- 🌐 Lab website: https://cpnslab.com
-- 📰 News / releases: https://cpnslab.com/news.html
-- 📬 Contact: A.D.Shaw@exeter.ac.uk
+How to use this branch:
 
----
+Clone this branch (including submodules):
+```bash
+git clone -b tools --recurse-submodules https://github.com/liobaberndt/CPNS.git
+```
 
-## What’s in this GitHub
+If you already cloned without submodules (or the submodule folders are empty):
+```bash
+git checkout tools
+git submodule update --init --recursive
+```
 
-This GitHub hosts two kinds of things:
+Update submodules to the latest upstream commits (submodules do not update automatically):
 
-### 1) Tools / libraries (actively developed)
-Core modelling and inference toolkits (MATLAB / Julia) used across projects.
+```bash
+git checkout tools
+git pull
 
-### 2) Lab Paper branches
-For many papers/preprints, we create a **dedicated branch** containing the manuscript and exact code used to generate the main results/figures.
+git submodule update --remote --merge
 
----
+git add .
+git commit -m "Update tool submodules"
+git push
+```
