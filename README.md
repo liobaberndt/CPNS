@@ -14,8 +14,12 @@ We study **predictive coding**, **neural dynamics**, and **active inference** in
 
 This GitHub hosts two kinds of things:
 
-### 1) Tools / libraries (actively developed)
-Core modelling and inference toolkits (MATLAB / Julia) used across projects.
+### 1) Tools / libraries (actively developed) - branch: tools
+Core modelling and inference toolkits used across projects.
+
+- atcm: thalamo-cortical neural mass modelling tools for M/EEG (ATCM; MATLAB).
+- aLogLikeFit: model fitting + Bayesian/variational inference utilities (incl. group-level/PEB-style workflows; MATLAB).
+- VariationalLaplace: Julia toolbox for variational Bayesian inference (Variational Laplace) for nonlinear dynamical systems.
 
 ### 2) Lab Paper branches
 For many papers/preprints, we create a **dedicated branch** containing the manuscript and exact code used to generate the main results/figures.
