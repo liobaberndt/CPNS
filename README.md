@@ -2,7 +2,7 @@
 
 Mechanistic modelling for mind, brain, and intelligent systems.
 
-We study **predictive coding**, **neural dynamics**, and **active inference** in computational psychiatry and neuroscience—combining experimental/clinical studies with computational modelling to understand psychiatric disorders and build intelligent agents.
+We study **predictive coding**, **neural dynamics**, and **active inference** in computational psychiatry and neuroscience combining experimental/clinical studies with computational modelling to understand psychiatric disorders and build intelligent agents.
 
 - 🌐 Lab website: https://cpnslab.com
 - 📰 News / releases: https://cpnslab.com/news.html
