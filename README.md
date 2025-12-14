@@ -1,4 +1,4 @@
-# Title: Predictive Coding and Neurocomputational Psychiatry: A Mechanistic Framework for Understanding Mental Disorders 
+# Predictive Coding and Neurocomputational Psychiatry: A Mechanistic Framework for Understanding Mental Disorders 
 
 Authors: Alex D. Shaw, Rachael L. Sumner, Lioba C. S. Berndt 
 
