@@ -4,7 +4,7 @@ Authors: Alex D. Shaw, Rachael L. Sumner, Lioba C. S. Berndt
 
 DOI: 10.3389/fpsyt.2025.1713833 
 
-Status: Provisionally accepted (Frontiers) 
+Status: Provisionally accepted
 
 License: CC BY 
 
