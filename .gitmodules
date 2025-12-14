@@ -1,4 +1,0 @@
-[submodule "atcm"]
-	path = atcm
-	url = https://github.com/alexandershaw4/atcm.git
-	branch = master
