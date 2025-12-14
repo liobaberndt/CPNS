@@ -22,6 +22,6 @@ Core modelling and inference toolkits used across projects.
 - VariationalLaplace: Julia toolbox for variational Bayesian inference (Variational Laplace) for nonlinear dynamical systems.
 
 ### 2) Lab Paper branches
-For many papers/preprints, we create a **dedicated branch** containing the manuscript and code.
+For many papers/preprints, we create a dedicated branch: **paper/year-journal-keyword-identifier** containing the manuscript and code.
 
 ---
