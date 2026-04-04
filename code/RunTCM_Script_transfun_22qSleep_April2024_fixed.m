@@ -22,14 +22,14 @@ function RunTCM_Script_transfun_22qSleep_April2024_fixed
     %==========================================================================
     % Add the directory where this script is located.
     scriptPath = fileparts(mfilename('fullpath'));
+    cd(scriptPath);
     addpath(scriptPath);
+    addpath(fullfile(scriptPath, 'helperfunctions'));
     
-    % Project/toolbox root paths (local machine).
     base_path = '/Users/liobaberndt/Dropbox/UoE';
     addpath(genpath(fullfile(base_path, 'DCM_TCM', 'atcm')));
     addpath(genpath(fullfile(base_path, 'DCM_TCM', 'aoptim')));
     
-    % Data and output locations.
     data_path = fullfile(base_path, 'sleepdetectives', 'data', 'elifeNick');
     save_path = fullfile(base_path, 'sleepdetectives', 'dcm', 'eLifeNick', 'DCM_v01');
     Data.Datasets = fullfile(base_path, 'sleepdetectives', 'data', 'filelists', 'filelist_2.txt');
