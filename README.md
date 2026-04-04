@@ -15,24 +15,3 @@ These findings implicate NMDA receptor hypofunction as a key mechanism in 22q11.
 *Funding (manuscript version): This research was funded in whole, or in part, by the Wellcome Trust (226709/Z/22/Z). For the purpose of Open Access, the author has applied a Creative Commons Attribution (CC BY) public copyright licence to any Author Accepted Manuscript version arising from this submission.*
 
 ---
-
-## Code in this repository
-
-Paths are under `code/`.
-
-| Script | Role |
-|--------|------|
-| `RunTCM_Script_transfun_22qSleep_April2024_fixed.m` | **Primary DCM pipeline:** specifies the thalamocortical model (forward model `@atcm.tc_hilge2`, spectral observer `@atcm.fun.alex_tf`, priors/preparation via `atcm.*`), loads EEG, and runs inversion. |
-| `PEB_22q.m` | Second-level **PEB** (22q vs sibling) per sleep stage and receptor family; saves `GCM` / `PEB` / `BMA` outputs. |
-| `lasso_regr.m` | Nested CV LASSO linking DCM parameters to behavioural outcomes (with FDR). |
-| `Simulation_22q_combined.m` | Combined **in silico** receptor sweep / simulation across stages. |
-| `sim_analysis.m` | Summarises and compares simulation outputs. |
-
-### `code/helperfunctions/`
-
-Shared MATLAB helpers used by the pipelines above. Add `code` and `code/helperfunctions` to the MATLAB path as in each script’s header block.
-
-### External modelling libraries: **atcm** and **aoptim**
-
-- **atcm** - thalamocortical modelling for DCM (integrators, spectral functions, parameter handling). Upstream: [github.com/alexandershaw4/atcm](https://github.com/alexandershaw4/atcm).  
-- **aoptim** - optimisation routines used in the inversion workflow. Upstream: [github.com/alexandershaw4/aoptim](https://github.com/alexandershaw4/aoptim).
