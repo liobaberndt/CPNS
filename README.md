@@ -1,4 +1,4 @@
-# 22q11.2DS sleep thalamocortical modelling (2026)
+# Sleep as a window into thalamocortical pathology: generative modeling implicates NMDA receptor hypofunction in 22q11.2 deletion syndrome
 
 ## Abstract
 
