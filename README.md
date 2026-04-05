@@ -20,6 +20,10 @@ These findings implicate NMDA receptor hypofunction as a key mechanism in 22q11.
 
 ---
 
+Citation: Lioba C. S. Berndt, Rosina M. Diebel, Nicholas A. Donnelly, Jeremy Hall, Marianne B. M. van den Bree, Rick A. Adams, Alexander D. Shaw, Matt W. Jones (2025). Sleep as a window into thalamocortical pathology: generative modeling implicates NMDA receptor hypofunction in 22q11.2 deletion syndrome. medRxiv. https://doi.org/10.3389/fpsyt.2025.1713833
+
+---
+
 *This research was funded in whole, or in part, by the Wellcome Trust (226709/Z/22/Z). For the purpose of Open Access, the author has applied a Creative Commons Attribution (CC BY) public copyright licence to any Author Accepted Manuscript version arising from this submission.*
 
 ---
