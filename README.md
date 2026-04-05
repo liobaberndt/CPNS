@@ -1,6 +1,14 @@
 # Sleep as a window into thalamocortical pathology: generative modeling implicates NMDA receptor hypofunction in 22q11.2 deletion syndrome
 
-## Abstract
+Authors: Lioba C. S. Berndt, Rosina M. Diebel, Nicholas A. Donnelly, Jeremy Hall, Marianne B. M. van den Bree, Rick A. Adams, Alexander D. Shaw, Matt W. Jones
+
+DOI: 10.1101/2025.08.01.25332824 
+
+medRxiv 
+
+---
+
+Abstract:
 
 22q11.2 deletion syndrome (22q11.2DS) is a strong genetic risk factor for neuropsychiatric conditions, including schizophrenia, yet the underlying synaptic mechanisms remain unclear. Sleep EEG suggests thalamocortical dysfunction, but scalp data alone lack mechanistic resolution. Computational modelling can bridge this gap by inferring receptor-level dynamics from EEG.
 
