@@ -19,3 +19,9 @@ Citation:
 Shaw, A. D., Sumner, R. L., & Berndt, L. C. S. (2025). Predictive Coding and Neurocomputational Psychiatry: A Mechanistic Framework for Understanding Mental Disorders. Frontiers in Psychiatry. https://doi.org/10.3389/fpsyt.2025.1713833 
 
 ---
+
+---
+
+*This research was funded in whole, or in part, by the Wellcome Trust (226709/Z/22/Z). For the purpose of Open Access, the author has applied a Creative Commons Attribution (CC BY) public copyright licence to any Author Accepted Manuscript version arising from this submission.*
+
+---
