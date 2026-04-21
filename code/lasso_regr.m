@@ -287,7 +287,7 @@ for oi = 1:numel(outcomes)
 
         mdl = res.final_mdl;
         if ~isempty(mdl)
-            coefT = mdl.Coefficients;
+            coefT = stage2_glm_coefficients(mdl);
             pidx = res.pred_idx_final(:);
             for rr = 1:numel(pidx)
                 if rr + 1 > height(coefT)

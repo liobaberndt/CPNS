@@ -126,7 +126,7 @@ function out = nested_cv_lasso_stage2(X, y, lassoDist, stage2Type, varargin)
 
         try
             mdl = fit_stage2_glm(Xtr_s, ytr, stage2Type);
-            yhat_te = predict(mdl, Xte_s);
+            yhat_te = predict_stage2_glm(mdl, Xte_s);
             yhat_te = yhat_te(:);
         catch
             yhat_te = nan(numel(y(te)), 1);
