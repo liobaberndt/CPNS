@@ -4,8 +4,6 @@ Authors: Lioba C. S. Berndt, Rosina M. Diebel, Nicholas A. Donnelly, Jeremy Hall
 
 DOI: 10.1101/2025.08.01.25332824 
 
-medRxiv 
-
 ---
 
 Abstract:
